@@ -10,7 +10,7 @@ import ContactMe from "./ContactMe";
 const HomeLayout = () => {
   return (
     <div className="">
-      <div className="pt-5 px-5 h-screen bg-[#000D12] xl:pt-[59px] xl:px-[120px]">
+      <div className="pt-5 px-5 bg-[#000D12] xl:pt-[59px] xl:px-[120px]">
         <Navbar />
         <Hero />
       </div>

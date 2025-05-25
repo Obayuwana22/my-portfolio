@@ -10,7 +10,7 @@ const AboutMe = () => {
       </div>
       <div className="flex flex-col-reverse items-center gap-7 xl:flex-row">
         <div className="border border-[#555] rounded-xl p-6 relative">
-          <img src={triangle} alt="" className="absolute -right-11 -top-10" />
+          <img src={triangle} alt="" className="w-16 absolute -right-3 -top-5" />
           <p className="text-white  font-medium xl:text-2xl xl:leading-9 xl:tracking-[0.18px] ">
             I’m Success, a frontend developer based in Lagos. I build
             responsive, accessible web apps with modern tools like React. Vue,
@@ -21,7 +21,7 @@ const AboutMe = () => {
             design to build sites that look great, load fast and stay accessible
             for everyone. Let’s create something great together!
           </p>
-          <img src={triangle} alt="" className="absolute -left-9 -bottom-6" />
+          <img src={triangle} alt="" className="w-16 absolute -left-3 -bottom-4" />
         </div>
 
         <img src={aboutAvatar} alt="" className="" />
