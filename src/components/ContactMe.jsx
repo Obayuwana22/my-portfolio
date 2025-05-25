@@ -7,11 +7,11 @@ import ContactMeForm from "./ContactMeForm";
 const ContactMe = () => {
   return (
     <div className="bg-[#000D12]">
-      <div className=" px-[120px] py-16">
-        <div className="text-white flex gap-12 items-center">
+      <div className="px-5 py-16 xl:px-[120px] ">
+        <div className="text-white flex flex-col gap-12 md:flex-row lg:gap-36 xl:items-center">
           <div>
-            <div className="text-2xl font-medium">Got a project in mind?</div>
-            <p className="text-5xl font-medium leading-normal tracking-[0.36px] text-[#00C8FF]">
+            <div className="xl:text-2xl font-medium">Got a project in mind?</div>
+            <p className="xl:text-5xl font-medium leading-normal tracking-[0.36px] text-[#00C8FF]">
               Get in Touch Let's Discuss
             </p>
             <div className="flex flex-col gap-3.5 font-normal leading-normal my-5">
@@ -39,7 +39,7 @@ const ContactMe = () => {
           <ContactMeForm />
         </div>
       </div>
-      <div className="text-[#6B6B6B] text-center border-t-1 border-[#6B6B6B] py-5">Copyrights@2025</div>
+      <div className="text-[#6B6B6B] text-center text-sm border-t-1 border-[#6B6B6B] py-2 xl:text-base xl:py-5">Copyrights@2025</div>
     </div>
   );
 };

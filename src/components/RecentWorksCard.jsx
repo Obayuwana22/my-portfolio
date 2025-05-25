@@ -7,7 +7,7 @@ import reactLogo from "../assets/react.png";
 
 const RecentWorksCard = () => {
   return (
-    <div className="text-white w-[372px] border border-[#403F3F] rounded-2xl ">
+    <div className="text-white w-full border border-[#403F3F] rounded-2xl ">
       <div className="my-4 bg-red-500 h-40 w-full"></div>
       <div className="border-t-2 border-t-[#403F3F] rounded-t-2xl px-5 py-4">
         <div>Task Manager App</div>
@@ -26,8 +26,8 @@ const RecentWorksCard = () => {
           </div>
 
           <div className="flex gap-3">
-            <button className="border px-4 py-3 rounded-[9px] font-medium text-xl"><a href="#">Code</a></button>
-            <button className="border px-4 py-3 font-medium text-xl demo-border"><a href="#">Demo</a></button>
+            <button className="border px-3 py-1 rounded-[9px] font-medium xl:px-4 xl:py-3 xl:text-xl"><a href="#">Code</a></button>
+            <button className="border px-3 py-1  font-medium  demo-border xl:px-4 xl:py-3 xl:text-xl"><a href="#">Demo</a></button>
           </div>
         </div>
       </div>

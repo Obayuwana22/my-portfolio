@@ -18,7 +18,7 @@ const ContactMeForm = () => {
         <textarea id="message" placeholder="Message" rows="4" className="text-[#B7B7B7] py-5 px-4 border border-[#6B6B6B] bg-[rgba(255, 255, 255, 0.04)] rounded-xl font-normal"></textarea>
       </div>
 
-      <button className="self-end text-xl font-medium demo-border py-3 px-4 leading-normal">
+      <button className="self-end font-medium demo-border py-2 px-3 xl:text-xl xl:py-3 xl:px-4  leading-normal">
         Contact me
       </button>
     </form>
