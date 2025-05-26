@@ -31,10 +31,16 @@ const Contact = () => {
           </div>
 
           <div className="flex items-center gap-6">
-            <a href="#" target="_blank">
+            <a
+              href="https://www.linkedin.com/in/success-obayuwana-312748220?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+              target="_blank"
+            >
               <img src={linkedin} alt="linkedin logo" />
             </a>
-            <a href="#" target="_blank">
+            <a
+              href="https://x.com/its_success?t=nsp_wWIz7_DSXV9nDhrIMA&s=09"
+              target="_blank"
+            >
               <img src={x} alt="x logo" />
             </a>
 
