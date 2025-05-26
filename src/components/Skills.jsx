@@ -5,6 +5,7 @@ import cssLogo from "../assets/css.png";
 import jsLogo from "../assets/js.png";
 import reactLogo from "../assets/react.png";
 import tailwindLogo from "../assets/tailwind.png";
+import SubHeading from "./SubHeading";
 // import firebaseLogo from "../assets/firebase.png";
 // import appwriteLogo from "../assets/appwrite.png";
 
@@ -21,9 +22,7 @@ const tools = [
 const Skills = () => {
   return (
     <div className="bg-[#000D12] px-5 py-10 xl:py-14 xl:px-[120px]">
-      <div className="text-center mb-11 text-[#00C8FF] font-semibold xl:text-[2rem]">
-        My Skills
-      </div>
+      <SubHeading subHeading="Skills and Technologies"/>
       <div className="flex flex-col gap-5 md:flex-row md:items-center md:justify-between">
         {tools.map((tool) => (
           <div key={tool.id} className="flex items-center gap-2">

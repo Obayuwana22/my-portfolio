@@ -24,14 +24,17 @@
   background: rgba(255, 255, 255, 0.04);
 }
 
-.demo-border {
-  border: 2px solid transparent;
-  border-image: linear-gradient(
-    to bottom,
-    rgba(1, 199, 254, 1),
-    rgba(229, 252, 255, 1)
-  );
-  border-image-slice: 1;
-  border-radius: 0.5rem;
-  background: rgba(255, 255, 255, 0.04);
+
+.float-animation {
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translate(0,0);
+  }
+  50% {
+    transform: translate(10px, -10px);
+  }
 }
