@@ -21,7 +21,7 @@ const tools = [
 
 const Skills = () => {
   return (
-    <div className="bg-[#000D12] px-5 py-10 xl:py-14 xl:px-[120px]">
+    <div className="mt-16">
       <SubHeading subHeading="Skills and Technologies"/>
       <div className="flex flex-col gap-5 md:flex-row md:items-center md:justify-between">
         {tools.map((tool) => (

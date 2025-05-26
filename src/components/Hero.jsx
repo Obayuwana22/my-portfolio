@@ -1,5 +1,6 @@
 import React from "react";
 import aboutAvatar from "../assets/about-avatar2.png";
+import { Download } from "lucide-react";
 
 const Hero = () => {
   return (
@@ -18,12 +19,12 @@ const Hero = () => {
 
         <div className="flex gap-3 mt-5">
           <button className="border px-3 py-1 rounded-[9px] font-medium xl:px-4 xl:py-3 xl:text-xl">
-            <a href="#">Download CV</a>
+            <a href="/cv.pdf" download target="_blank" rel="noopener noreferrer" className="flex items-center gap-3">Download CV <Download size={18}/> </a>
           </button>
         </div>
       </div>
 
-      <div className="hidden md:block xl:mt-10">
+      <div className="xl:mt-10">
         <img src={aboutAvatar} alt="guy in hoodie" />
       </div>
     </div>

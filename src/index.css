@@ -12,6 +12,11 @@
   background-color: var(--color-gray-blue);
 } */
 
+html {
+  scroll-behavior: smooth;
+}
+
+
 .gradient-border {
   border: 2px solid transparent;
   border-image: linear-gradient(
@@ -36,5 +41,19 @@
   }
   50% {
     transform: translate(10px, -10px);
+  }
+}
+
+.moveUp-animation {
+  animation: moveUp 3s ease-in-out infinite;
+}
+
+@keyframes moveUp {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
   }
 }

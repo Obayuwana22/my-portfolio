@@ -4,7 +4,7 @@ import { Rocket } from "lucide-react";
 
 const AboutMe = () => {
   return (
-    <div className="bg-[#000D12] px-5 py-16 xl:px-[120px] ">
+    <div className="">
       <SubHeading subHeading="About me" />
       <div className="grid grid-cols-1 items-center gap-7 lg:grid-cols-2 ">
         <div className="order-2 space-y-6 md:order-1">
