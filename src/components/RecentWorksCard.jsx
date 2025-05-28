@@ -1,5 +1,4 @@
 import React from "react";
-import Badge from "./Badge";
 import { ExternalLink } from "lucide-react";
 import { GitHub } from "@mui/icons-material";
 import { projects } from "../data";
@@ -21,8 +20,14 @@ const RecentWorksCard = () => {
             <div className="flex-1" />
             <div className="flex flex-col">
               <div className="space-x-2 mb-5 mt-10">
-                <Badge text="React" />
-                <Badge text="React" />
+                {project.badges.map((item) => (
+                  <div
+                    key={item.id}
+                    className="bg-[#01313F] px-3 rounded-full inline-block"
+                  >
+                    <div>{item.badge}</div>
+                  </div>
+                ))}
               </div>
               <div className="flex gap-3 just">
                 <button className="border px-3 py-2 rounded-[9px] font-medium xl:text-xl">

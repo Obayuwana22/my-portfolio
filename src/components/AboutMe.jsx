@@ -1,13 +1,14 @@
 import React from "react";
 import SubHeading from "./SubHeading";
 import { Rocket } from "lucide-react";
+// import aboutAvatar from "../assets/about-avatar2.png";
 
 const AboutMe = () => {
   return (
     <div className="">
       <SubHeading subHeading="About me" />
       <div className="grid grid-cols-1 items-center gap-7 lg:grid-cols-2 ">
-        <div className="order-2 space-y-6 md:order-1">
+        <div className="order-2 space-y-6 lg:order-1">
           <p className="text-white  font-medium xl:text-2xl xl:leading-9 xl:tracking-[0.18px] ">
             Welcome to my corner of the digital universe! I'm a passionate
             frontend developer, creating beautiful, responsive, and
@@ -25,11 +26,14 @@ const AboutMe = () => {
           </p>
         </div>
 
-        <div className="order-1 md:order-2 mt-10 w-64 h-64 mx-auto bg-gradient-to-br from-[#00C8FF] to-[#E6F8FC] rounded-full flex items-center justify-center">
+        <div className="order-1 lg:order-2 mt-10 w-64 h-64 mx-auto bg-gradient-to-br from-[#00C8FF] to-[#E6F8FC] rounded-full flex items-center justify-center">
           <div className="w-56 h-56 bg-[#01313F] rounded-full flex items-center justify-center">
             <Rocket className="w-24 h-24 text-[#E6F8FC] float-animation" />
           </div>
         </div>
+        {/* <div className="xl:mt-10">
+          <img src={aboutAvatar} alt="guy in hoodie" />
+        </div> */}
       </div>
     </div>
   );

@@ -8,10 +8,10 @@ import SubHeading from "./SubHeading";
 const Contact = () => {
   return (
     <div className="">
-      <div className="text-white flex flex-col gap-12 md:flex-row lg:gap-36 xl:items-center">
+      <div className="text-white flex flex-col gap-12 md:flex-row lg:gap-36">
         <div>
           <SubHeading subHeading="Let's Connect!" />
-          <p className="xl:text-5xl font-medium leading-normal tracking-[0.36px] ">
+          <p className="xl:text-3xl font-medium leading-normal tracking-[0.36px] ">
             Ready to launch your next project? Let's explore the possibilities
             together!
           </p>

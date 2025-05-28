@@ -6,7 +6,7 @@ import CloseIcon from "@mui/icons-material/Close";
 const navLinks = [
   { id: nanoid(), text: "home", path: "#home" },
   { id: nanoid(), text: "projects", path: "#projects" },
-  { id: nanoid(), text: "resume", path: "#resume" },
+  // { id: nanoid(), text: "resume", path: "#resume" },
   { id: nanoid(), text: "about", path: "#about" },
   { id: nanoid(), text: "contact", path: "#contact" },
 ];
@@ -29,7 +29,7 @@ const Navbar = () => {
         {navLinks.map((navLink) => (
           <ul
             key={navLink.id}
-            className={`bg-[#01313F] md:hidden ${
+            className={`bg-[#01313F] pl-3 md:hidden ${
               isMenuOpen ? "block" : "hidden"
             }`}
           >
@@ -37,8 +37,8 @@ const Navbar = () => {
               <a
                 href={navLink.path}
                 onClick={() => setIsActive(navLink.id)}
-                className={`px-3 py-1 xl:px-10 xl:py-3  ${
-                  isActive === navLink.id ? "gradient-border" : "border-none"
+                className={`xl:px-10 xl:py-3  ${
+                  isActive === navLink.id ? "border-b-2 pb-0.5" : "border-none"
                 } `}
               >
                 {navLink.text}

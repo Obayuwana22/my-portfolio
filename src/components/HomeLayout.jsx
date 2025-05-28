@@ -20,10 +20,17 @@ const HomeLayout = () => {
     return () => window.removeEventListener("mousemove", handleMouseMove);
   }, []);
 
+  const homeSection = () => {
+    const homeSection = document.getElementById("home");
+    if (homeSection) {
+      homeSection.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <div className="min-h-screen text-white overflow-hidden relative ">
       {/* Animated background stars */}
-      {/* <div className="absolute inset-0 overflow-hidden hidden xl:block">
+      <div className="absolute inset-0 overflow-hidden">
         {[...Array(100)].map((_, i) => (
           <div
             key={i}
@@ -38,7 +45,7 @@ const HomeLayout = () => {
             }}
           />
         ))}
-      </div> */}
+      </div>
 
       {/* Mouse follower effect */}
       <div
@@ -49,16 +56,16 @@ const HomeLayout = () => {
         }}
       />
 
-      <div className="mb-16">
-        <Navbar />
+      <div className="mb-16 relative z-10">
         <section id="home">
+          <Navbar />
           <Hero />
         </section>
       </div>
       <section id="" className="my-16 xl:mt-40">
         <Skills />
       </section>
-      <div className="space-y-16 xl:space-y-32">
+      <div className="space-y-16 xl:space-y-32 relative z-10" >
         <section id="projects">
           <RecentWorks />
         </section>
@@ -73,7 +80,10 @@ const HomeLayout = () => {
         </section>
       </div>
 
-      <div className="h-10 w-10 bg-[#00C8FF] rounded-full flex items-center justify-center fixed bottom-14 right-5">
+      <div
+        onClick={homeSection}
+        className="h-10 w-10 bg-[#00C8FF] rounded-full flex items-center justify-center fixed bottom-14 right-5 z-10"
+      >
         <MoveUp className="moveUp-animation" />
       </div>
     </div>
