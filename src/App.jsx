@@ -7,7 +7,7 @@ function App() {
         <HomeLayout />
       </div>
       <div className="mt-16 text-[#6B6B6B] text-center text-sm border-t-1 border-[#6B6B6B] py-3 xl:text-base xl:py-5">
-        Copyrights@2025
+        @2025 SuccessObayuwana
       </div>
     </div>
   );
