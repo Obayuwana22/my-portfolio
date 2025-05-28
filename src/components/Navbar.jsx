@@ -15,8 +15,8 @@ const Navbar = () => {
   const [isActive, setIsActive] = useState(navLinks[0].id);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
-    <div className="">
-      <nav className="flex flex-col justify-end text-white capitalize font-normal md:text-xl">
+    <div className="relative">
+      <nav className="flex flex-col justify-end text-gray-white  capitalize font-normal md:text-xl">
         <div className="flex items-center justify-between mb-10">
           <div className="font-bold block md:hidden">{"<Dev />"}</div>
           <div
@@ -48,7 +48,7 @@ const Navbar = () => {
         ))}
       </nav>
 
-      <div className="flex items-center justify-between text-white ">
+      <div className="flex items-center justify-between text-gray-white  ">
         <div className=" font-bold  hidden md:block xl:text-xl">{"<Dev/>"}</div>
         <nav className="flex capitalize font-normal xl:text-xl">
           {navLinks.map((navLink) => (

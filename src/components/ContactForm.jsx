@@ -51,7 +51,7 @@ const ContactForm = () => {
 
       <div className="flex flex-col gap-2">
         <label htmlFor="message" className="text-xl font-medium">
-          Have a project in mind?
+          Message
         </label>
         <textarea
           id="message"

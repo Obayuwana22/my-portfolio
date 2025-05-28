@@ -4,9 +4,11 @@ import SubHeading from "./SubHeading";
 
 const WorkExperience = () => {
   return (
-    <div className="">
-      <SubHeading subHeading="My Experience"/>
-      <div className="flex flex-col gap-8 lg:flex-row xl:gap-[70px] h-full">
+    <div className="relative pt-5 px-5 xl:px-[120px] ">
+      <div className="absolute w-96 h-96 md:w-[500px] md:h-[500px] left-2/4 -translate-x-1/2 top-10 bg-[#00C8FF3D] transform rotate-45 blur-[337px]"></div>
+
+      <SubHeading subHeading="My Experience" />
+      <div className="relative flex flex-col gap-8 lg:flex-row xl:gap-[70px] h-full ">
         <div className="flex flex-col gap-8 flex-1">
           <WorkExperienceCard />
           <WorkExperienceCard />

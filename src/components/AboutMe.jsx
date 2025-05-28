@@ -5,22 +5,22 @@ import { Rocket } from "lucide-react";
 
 const AboutMe = () => {
   return (
-    <div className="">
+    <div className="bg-[#000D12] relative  py-10 z-10 pt-5 px-5 xl:px-[120px]">
       <SubHeading subHeading="About me" />
       <div className="grid grid-cols-1 items-center gap-7 lg:grid-cols-2 ">
-        <div className="order-2 space-y-6 lg:order-1">
-          <p className="text-white  font-medium xl:text-2xl xl:leading-9 xl:tracking-[0.18px] ">
+        <div className="order-2 space-y-6 lg:order-1 text-gray-white font-medium xl:text-2xl xl:leading-9 xl:tracking-[0.18px] ">
+          <p>
             Welcome to my corner of the digital universe! I'm a passionate
             frontend developer, creating beautiful, responsive, and
             user-friendly web applications.
           </p>
-          <p className="text-white  font-medium xl:text-2xl xl:leading-9 xl:tracking-[0.18px] ">
+          <p>
             My journey began with a curiosity about how websites work, and it
             has evolved into a deep love for crafting pixel-perfect interfaces
             that provide exceptional user experiences. I specialize in React,
             JavaScript, and modern CSS frameworks.
           </p>
-          <p className="text-white  font-medium xl:text-2xl xl:leading-9 xl:tracking-[0.18px] ">
+          <p>
             Outside of coding, you’ll find me hiking local trails or watching
             awesome movies. Let’s create something great together!
           </p>
@@ -31,6 +31,7 @@ const AboutMe = () => {
             <Rocket className="w-24 h-24 text-[#E6F8FC] float-animation" />
           </div>
         </div>
+
         {/* <div className="xl:mt-10">
           <img src={aboutAvatar} alt="guy in hoodie" />
         </div> */}

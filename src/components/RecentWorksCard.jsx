@@ -9,7 +9,7 @@ const RecentWorksCard = () => {
       {projects.map((project) => (
         <div
           key={project.id}
-          className="text-white w-full border border-[#403F3F] rounded-2xl flex flex-col"
+          className="text-gray-white bg-[#ffffff14] w-full border border-[#403F3F] rounded-2xl flex flex-col"
         >
           <div className="my-4">
             <img src={project.thumbnail} alt="" />

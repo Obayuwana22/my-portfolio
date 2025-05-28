@@ -3,14 +3,16 @@ import linkedin from "../assets/linkedin.svg";
 import x from "../assets/x.svg";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import ContactForm from "./ContactForm";
-import SubHeading from "./SubHeading";
 
 const Contact = () => {
   return (
-    <div className="">
-      <div className="text-white flex flex-col gap-12 md:flex-row lg:gap-36">
+    <div className="relative bg-[#000D12] pt-5 px-5 xl:px-[120px] ">
+      <div className="absolute w-96 h-96 md:w-[500px] md:h-[300px] left-2/4 -translate-x-1/2 -top-20 bg-[#00C8FF3D] transform -rotate-45  blur-[337px]"></div>
+      <div className=" text-gray-white flex flex-col gap-12 md:flex-row lg:gap-36">
         <div>
-          <SubHeading subHeading="Let's Connect!" />
+          <div className="mb-5 font-semibold text-[2rem] bg-gradient-to-r from-[#00C8FF] to-[#E6F8FC] bg-clip-text text-transparent xl:text-4xl">
+            Contact me for collaboration
+          </div>
           <p className="xl:text-3xl font-medium leading-normal tracking-[0.36px] ">
             Ready to launch your next project? Let's explore the possibilities
             together!

@@ -4,7 +4,7 @@ import SubHeading from "./SubHeading";
 
 const RecentWorks = () => {
   return (
-    <div className="">
+    <div className="mt-6 pt-5 px-5 xl:px-[120px]">
       <SubHeading subHeading="Portfolio Showcase"/>
       <div>
         <RecentWorksCard />

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Navbar from "./Navbar";
+
 import Hero from "./Hero";
 import Skills from "./Skills";
 import RecentWorks from "./RecentWorks";
@@ -48,24 +48,23 @@ const HomeLayout = () => {
       </div>
 
       {/* Mouse follower effect */}
-      <div
-        className="fixed w-96 h-96 bg-purple-500/10 rounded-full blur-3xl pointer-events-none z-0 transition-all duration-100 hidden xl:block"
+      {/* <div
+        className="fixed w-96 h-96 bg-purple-500/10 rounded-full blur-3xl pointer-events-none z-0 transition-all duration-100 hidden md:block"
         style={{
           left: mousePosition.x - 192,
           top: mousePosition.y - 192,
         }}
-      />
+      /> */}
 
-      <div className="mb-16 relative z-10">
-        <section id="home">
-          <Navbar />
-          <Hero />
-        </section>
-      </div>
-      <section id="" className="my-16 xl:mt-40">
+      <section id="home" className="mb-16 relative z-10 pt-5 px-5 xl:px-[120px]">
+        <Hero />
+      </section>
+
+      <section id="" className="my-16 xl:mb-0 xl:mt-40 ">
         <Skills />
       </section>
-      <div className="space-y-16 xl:space-y-32 relative z-10">
+      
+      <div className="space-y-16 xl:space-y-32 relative z-10 ">
         <section id="projects">
           <RecentWorks />
         </section>
