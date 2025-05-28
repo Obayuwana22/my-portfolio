@@ -20,13 +20,10 @@ const Navbar = () => {
 
   return (
     <div className="">
-      <nav className="flex flex-col justify-end text-gray-white  capitalize font-normal md:text-xl pt-5 px-5 md:hidden">
+      <nav className="relative flex flex-col justify-end text-gray-white  capitalize font-normal md:text-xl pt-5 px-5 md:hidden">
         <div className="flex items-center justify-between mb-10">
           <div className="font-bold block ">{"<Dev />"}</div>
-          <div
-            className=""
-            onClick={() => setIsMenuOpen(!isMenuOpen)}
-          >
+          <div className="" onClick={() => setIsMenuOpen(!isMenuOpen)}>
             {isMenuOpen ? <CloseIcon /> : <MenuRoundedIcon />}
           </div>
         </div>
