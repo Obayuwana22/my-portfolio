@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-
+import Navbar from "./Navbar";
 import Hero from "./Hero";
 import Skills from "./Skills";
 import RecentWorks from "./RecentWorks";
@@ -56,14 +56,17 @@ const HomeLayout = () => {
         }}
       /> */}
 
-      <section id="home" className="mb-16 relative z-10 pt-5 px-5 xl:px-[120px]">
-        <Hero />
+      <section id="home">
+        <Navbar />
+        <div className="mb-16 relative z-10 pt-5 px-5 xl:px-[120px]">
+          <Hero />
+        </div>
       </section>
 
       <section id="" className="my-16 xl:mb-0 xl:mt-40 ">
         <Skills />
       </section>
-      
+
       <div className="space-y-16 xl:space-y-32 relative z-10 ">
         <section id="projects">
           <RecentWorks />
@@ -81,7 +84,7 @@ const HomeLayout = () => {
 
       <div
         onClick={homeSection}
-        className="h-10 w-10 bg-[#00C8FF] rounded-full flex items-center justify-center fixed bottom-14 right-5 z-10"
+        className="h-10 w-10 bg-[#00C8FF] rounded-full flex items-center justify-center fixed bottom-14 right-5 z-10 md:hidden"
       >
         <MoveUp className="moveUp-animation" />
       </div>

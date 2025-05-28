@@ -6,12 +6,12 @@ import { Download } from "lucide-react";
 
 const Hero = () => {
   return (
-    <div className="relative">
+    <div className="">
       <div className="absolute md:w-[883px] md:h-[924px] -left-[500px] -top-[400px] bg-[#00C8FF3D] blur-[237px] transform rotate-45 xl:-left-[300px] xl:-top-[300px]"></div>
 
-      <Navbar />
+      {/* <Navbar /> */}
 
-      <div className="relative mt-10 flex flex-col gap-5 items-center md:flex-row md:justify-center text-gray-white md:text-white xl:mt-36">
+      <div className="relative mt-10 flex flex-col gap-5 items-center md:flex-row md:justify-center text-gray-white md:text-white md:mt-36">
         <div className="mr-5">
           <div className="max-w-[50em]">
             <div className="text-3xl xl:text-5xl ">Hi, I am Success</div>

@@ -68,7 +68,7 @@ const ContactForm = () => {
         type="submit"
         className="self-end font-medium rounded-xl bg-gradient-to-r from-[#00C8FF] to-[#01313F] py-2 px-3 xl:text-xl xl:py-3 xl:px-4  leading-normal"
       >
-        Contact me
+        Send message
       </button>
     </form>
   );
