@@ -1,1 +1,1 @@
-Live link: https://techie-mu.vercel.app/
+Live link: https://my-portfolio-snowy-beta-34.vercel.app/
