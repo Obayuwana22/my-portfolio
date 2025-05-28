@@ -49,7 +49,7 @@ const HomeLayout = () => {
 
       {/* Mouse follower effect */}
       <div
-        className="fixed w-96 h-96 bg-purple-500/10 rounded-full blur-3xl pointer-events-none z-0 transition-all duration-100"
+        className="fixed w-96 h-96 bg-purple-500/10 rounded-full blur-3xl pointer-events-none z-0 transition-all duration-100 hidden xl:block"
         style={{
           left: mousePosition.x - 192,
           top: mousePosition.y - 192,
@@ -65,7 +65,7 @@ const HomeLayout = () => {
       <section id="" className="my-16 xl:mt-40">
         <Skills />
       </section>
-      <div className="space-y-16 xl:space-y-32 relative z-10" >
+      <div className="space-y-16 xl:space-y-32 relative z-10">
         <section id="projects">
           <RecentWorks />
         </section>
