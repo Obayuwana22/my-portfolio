@@ -1,6 +1,7 @@
 import { nanoid } from "nanoid";
 import projectOne from "./assets/thumbnail/kropp fitness.png";
 import projectTwo from "./assets/thumbnail/graphics designer.png";
+import projectThree from "./assets/thumbnail/colourist.png";
 
 export const projects = [
   {
@@ -12,10 +13,10 @@ export const projects = [
     codeUrl: "https://github.com/Obayuwana22/fitness-site",
     demoUrl: "https://kropp-fitness.vercel.app/",
     badges: [
-      {id: nanoid(), badge: "HTML"},
-      {id: nanoid(), badge: "CSS"},
-      {id: nanoid(), badge: "Javascript"},
-    ]
+      { id: nanoid(), badge: "HTML" },
+      { id: nanoid(), badge: "CSS" },
+      { id: nanoid(), badge: "Javascript" },
+    ],
   },
 
   {
@@ -27,23 +28,23 @@ export const projects = [
     codeUrl: "https://github.com/Obayuwana22/Graphics-Designer-Portfolio",
     demoUrl: "https://graphics-designer-portfolio.vercel.app/",
     badges: [
-      {id: nanoid(), badge: "HTML"},
-      {id: nanoid(), badge: "CSS"},
-      {id: nanoid(), badge: "Javascript"},
-    ]
+      { id: nanoid(), badge: "HTML" },
+      { id: nanoid(), badge: "CSS" },
+      { id: nanoid(), badge: "Javascript" },
+    ],
   },
 
   {
     id: nanoid(),
-    thumbnail: projectTwo,
-    title: "G.D Portfolio Site",
+    thumbnail: projectThree,
+    title: "Colourist Portfolio",
     description:
-      "This portfolio website showcases the work of a graphic designer, featuring a curated selection of her best projects across branding, illustration, and digital design. The site is designed for easy navigation, with a clean, modern layout that highlights visual content.",
-    codeUrl: "https://github.com/Obayuwana22/Graphics-Designer-Portfolio",
-    demoUrl: "https://graphics-designer-portfolio.vercel.app/",
+      "A freelance colorist specializing in color grading, with a portfolio that highlights a keen eye for detail and a talent for elevating visual storytelling through rich, cinematic color.",
+    codeUrl: "https://github.com/Obayuwana22/courage-portfolio",
+    demoUrl: "https://courageobayuwana.com/",
     badges: [
-      {id: nanoid(), badge: "React"},
-      {id: nanoid(), badge: "Tailwindcss"},
-    ]
+      { id: nanoid(), badge: "React" },
+      { id: nanoid(), badge: "Tailwindcss" },
+    ],
   },
 ];
