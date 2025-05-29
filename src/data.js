@@ -1,7 +1,7 @@
 import { nanoid } from "nanoid";
 import projectOne from "./assets/thumbnail/kropp fitness.png";
 import projectTwo from "./assets/thumbnail/graphics designer.png";
-import projectThree from "./assets/thumbnail/colourist.png";
+import projectThree from "./assets/thumbnail/colourist.PNG";
 
 export const projects = [
   {
