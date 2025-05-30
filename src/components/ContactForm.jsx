@@ -90,7 +90,7 @@ const ContactForm = () => {
         </button>
       </form>
 
-      <ToastContainer style={{marginTop: "5em" }} />
+      <ToastContainer style={{ marginTop: "5em" }} />
     </>
   );
 };
