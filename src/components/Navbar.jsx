@@ -51,7 +51,7 @@ const Navbar = () => {
 
       <div
         className="fixed w-full bg-transparent-500/30 backdrop-blur-md
-z-50 hidden  md:flex items-center justify-between text-gray-white py-5 px-5 xl:py-7 xl:px-[120px]"
+z-50 hidden md:flex items-center justify-between text-gray-white py-5 px-5 xl:py-7 xl:px-[120px]"
       >
         <div className=" font-bold hidden md:block xl:text-xl">{"<Dev/>"}</div>
         <nav className="flex capitalize font-normal xl:text-xl">
