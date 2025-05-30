@@ -51,15 +51,15 @@ const WorkExperienceCard = () => {
     <div className="flex flex-col gap-5">
       {work.map((item) => (
         <div key={item.id} className="px-4 py-6 bg-[#FFFFFF0A] rounded-xl">
-          <div className="text-sm font-normal text-gray-white ">
+          <div className="text-sm font-normal text-gray-white xl:text-base">
             {item.date}
           </div>
-          <div className="text-2xl font-medium text-gray-white  my-2">
+          <div className="text-2xl font-medium text-gray-white my-2 xl:text-3xl">
             {item.organization}
           </div>
           {item.responsibilities.map((responsibility) => (
             <div key={responsibility.id}>
-              <li className="text-sm font-normal text-gray-white mb-2">
+              <li className="text-sm font-normal text-gray-white mb-2 xl:text-lg">
                 {responsibility.desc}
               </li>
             </div>

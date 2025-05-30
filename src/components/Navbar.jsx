@@ -51,7 +51,7 @@ const Navbar = () => {
 
       <div
         className="fixed w-full bg-transparent-500/30 backdrop-blur-md
-z-50 hidden  md:flex items-center justify-between text-gray-white py-5 px-5 xl:px-[120px]"
+z-50 hidden  md:flex items-center justify-between text-gray-white py-5 px-5 xl:py-7 xl:px-[120px]"
       >
         <div className=" font-bold hidden md:block xl:text-xl">{"<Dev/>"}</div>
         <nav className="flex capitalize font-normal xl:text-xl">
@@ -61,7 +61,7 @@ z-50 hidden  md:flex items-center justify-between text-gray-white py-5 px-5 xl:p
                 <a
                   href={navLink.path}
                   onClick={() => setIsActive(navLink.id)}
-                  className={`px-5 py-1  xl:py-3  ${
+                  className={`px-5 py-1 ${
                     isActive === navLink.id ? "gradient-border" : "border-none"
                   } `}
                 >
