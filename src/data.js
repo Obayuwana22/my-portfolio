@@ -45,6 +45,7 @@ export const projects = [
     badges: [
       { id: nanoid(), badge: "React" },
       { id: nanoid(), badge: "Tailwindcss" },
+      { id: nanoid(), badge: "Appwrite" },
     ],
   },
 
