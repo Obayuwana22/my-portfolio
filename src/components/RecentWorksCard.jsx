@@ -15,7 +15,9 @@ const RecentWorksCard = () => {
             <img src={project.thumbnail} alt="" />
           </div>
           <div className="border-t-2 border-t-[#403F3F] rounded-t-2xl px-5 py-4 flex flex-col flex-1">
-            <div className="font-extrabold mb-2 xl:text-xl">{project.title}</div>
+            <div className="font-extrabold mb-2 xl:text-xl">
+              {project.title}
+            </div>
             <p className="xl:text-lg">{project.description}</p>
             <div className="flex-1" />
             <div className="flex flex-col">
@@ -30,12 +32,12 @@ const RecentWorksCard = () => {
                 ))}
               </div>
               <div className="flex gap-3 just">
-                <button className="border px-3 py-2 rounded-[9px] font-medium xl:text-xl">
+                {/* <button className="border px-3 py-2 rounded-[9px] font-medium xl:text-xl">
                   <a href={project.codeUrl} target="_blank" className="flex">
                     <GitHub className="mr-3" />
                     Code
                   </a>
-                </button>
+                </button> */}
                 <button className="px-3 py-2 font-medium rounded-xl bg-gradient-to-r from-[#00C8FF] to-[#01313F] xl:text-xl">
                   <a
                     href={project.demoUrl}
@@ -43,7 +45,7 @@ const RecentWorksCard = () => {
                     className="flex items-center"
                   >
                     <ExternalLink className="mr-3" />
-                    Live Demo
+                    Demo
                   </a>
                 </button>
               </div>
@@ -56,4 +58,3 @@ const RecentWorksCard = () => {
 };
 
 export default RecentWorksCard;
-
