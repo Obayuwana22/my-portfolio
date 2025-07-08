@@ -2,7 +2,7 @@ import { nanoid } from "nanoid";
 import projectOne from "./assets/thumbnail/kropp fitness.png";
 import projectTwo from "./assets/thumbnail/colourist.PNG";
 import projectThree from "./assets/thumbnail/movie-hub.PNG";
-import projectFour from "./assets/thumbnail/comfy store.png";
+import projectFour from "./assets/thumbnail/comfy store.PNG";
 
 export const projects = [
   {
