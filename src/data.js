@@ -2,9 +2,22 @@ import { nanoid } from "nanoid";
 import projectOne from "./assets/thumbnail/kropp fitness.png";
 import projectTwo from "./assets/thumbnail/colourist.PNG";
 import projectThree from "./assets/thumbnail/movie-hub.PNG";
-import projectFour from "./assets/thumbnail/graphics designer.png";
+import projectFour from "./assets/thumbnail/comfy store.png";
 
 export const projects = [
+  {
+    id: nanoid(),
+    thumbnail: projectFour,
+    title: "Comfy Store",
+    description:
+      "Comfy is your go-to destination for modern, affordable furniture that brings comfort and style into every corner of your home.",
+    codeUrl: "https://github.com/Obayuwana22/comfy-store",
+    demoUrl: "https://comfy-store-delta-two.vercel.app/",
+    badges: [
+      { id: nanoid(), badge: "React" },
+      { id: nanoid(), badge: "Tailwindcss" },
+    ],
+  },
   {
     id: nanoid(),
     thumbnail: projectOne,
@@ -46,21 +59,6 @@ export const projects = [
       { id: nanoid(), badge: "React" },
       { id: nanoid(), badge: "Tailwindcss" },
       { id: nanoid(), badge: "Appwrite" },
-    ],
-  },
-
-  {
-    id: nanoid(),
-    thumbnail: projectFour,
-    title: "G.D Portfolio Site",
-    description:
-      "This portfolio website showcases the work of a graphic designer, featuring a curated selection of her best projects across branding, illustration, and digital design.",
-    codeUrl: "https://github.com/Obayuwana22/Graphics-Designer-Portfolio",
-    demoUrl: "https://graphics-designer-portfolio.vercel.app/",
-    badges: [
-      { id: nanoid(), badge: "HTML" },
-      { id: nanoid(), badge: "CSS" },
-      { id: nanoid(), badge: "Javascript" },
     ],
   },
 ];
