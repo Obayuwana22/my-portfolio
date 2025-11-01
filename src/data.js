@@ -1,21 +1,22 @@
 import { nanoid } from "nanoid";
 import projectOne from "./assets/thumbnail/kropp fitness.png";
 import projectTwo from "./assets/thumbnail/colourist.PNG";
-import projectThree from "./assets/thumbnail/movie-hub.PNG";
+import projectThree from "./assets/thumbnail/lockedIn.png";
 import projectFour from "./assets/thumbnail/comfy store.PNG";
 
 export const projects = [
   {
     id: nanoid(),
-    thumbnail: projectFour,
-    title: "Comfy Store",
+    thumbnail: projectThree,
+    title: "Movie Hub",
     description:
-      "Comfy is your go-to destination for modern, affordable furniture that brings comfort and style into every corner of your home.",
-    codeUrl: "https://github.com/Obayuwana22/comfy-store",
-    demoUrl: "https://comfy-store-delta-two.vercel.app/",
+      "LockedIn is a modern personal finance web application that helps users manage their budgets, track transactions, and organize spending into categories.It offers a clean interface with persistent data storage, allowing users to stay on top of their finances effortlessly.",
+    codeUrl: "https://github.com/Obayuwana22/lockedin",
+    demoUrl: "https://lockedin-teal.vercel.app/",
     badges: [
       { id: nanoid(), badge: "React" },
       { id: nanoid(), badge: "Tailwindcss" },
+      { id: nanoid(), badge: "Redux Toolkit" },
     ],
   },
   {
@@ -32,6 +33,19 @@ export const projects = [
       { id: nanoid(), badge: "Javascript" },
     ],
   },
+  {
+    id: nanoid(),
+    thumbnail: projectFour,
+    title: "Comfy Store",
+    description:
+      "Comfy is your go-to destination for modern, affordable furniture that brings comfort and style into every corner of your home.",
+    codeUrl: "https://github.com/Obayuwana22/comfy-store",
+    demoUrl: "https://comfy-store-delta-two.vercel.app/",
+    badges: [
+      { id: nanoid(), badge: "React" },
+      { id: nanoid(), badge: "Tailwindcss" },
+    ],
+  },
 
   {
     id: nanoid(),
@@ -44,21 +58,6 @@ export const projects = [
     badges: [
       { id: nanoid(), badge: "React" },
       { id: nanoid(), badge: "Tailwindcss" },
-    ],
-  },
-
-  {
-    id: nanoid(),
-    thumbnail: projectThree,
-    title: "Movie Hub",
-    description:
-      "Movie Hub is a sleek and responsive movie discovery web application that enables users to search for films, explore trending titles, and view movie information such as movie rating and release dates.",
-    codeUrl: "https://github.com/Obayuwana22/movie-hub",
-    demoUrl: "https://movie-hub-eight-xi.vercel.app/",
-    badges: [
-      { id: nanoid(), badge: "React" },
-      { id: nanoid(), badge: "Tailwindcss" },
-      { id: nanoid(), badge: "Appwrite" },
     ],
   },
 ];
