@@ -8,7 +8,7 @@ export const projects = [
   {
     id: nanoid(),
     thumbnail: projectThree,
-    title: "Movie Hub",
+    title: "LockedIn",
     description:
       "LockedIn is a modern personal finance web application that helps users manage their budgets, track transactions, and organize spending into categories.It offers a clean interface with persistent data storage, allowing users to stay on top of their finances effortlessly.",
     codeUrl: "https://github.com/Obayuwana22/lockedin",
